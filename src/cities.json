@@ -1,0 +1,33 @@
+[
+  {
+    "title":"Los Angeles",
+   "location_type":"City",
+   "woeid":2442047,
+   "latt_long":"34.052235,-118.243683"
+  },
+  {
+  "title":"San Diego",
+  "location_type":"City",
+  "woeid":2487889,
+  "latt_long":"32.715736,-117.161087"
+  },
+  {
+  "title":"New York",
+  "location_type":"City",
+  "woeid":2459115,
+  "latt_long":"40.730610,-73.935242"
+  },
+  {
+  "title":"Chicago",
+  "location_type":"City",
+  "woeid":2459115,
+  "latt_long":"41.881832,-87.623177"
+  },
+
+  {"title":"St Petersburg",
+   "location_type":"City",
+   "woeid":2123260,
+   "latt_long":"59.932739,30.306721"
+  }
+
+]
