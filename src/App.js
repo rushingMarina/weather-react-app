@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import FrontSide from "./FrontSide";
 import BackSide from "./BackSide";
-import moment from "moment";
 import "./panel.css";
 import cities from "./cities.json"
 
 
 class App extends Component {
+
+
 
 state = {flipped: false, currentCity: cities[0]};
 

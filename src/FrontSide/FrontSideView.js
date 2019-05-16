@@ -3,9 +3,10 @@ import "./card.css";
 import optionsImage from "./options.svg";
 import WeatherIcon from "./WeatherIcon";
 
+
 export default ({
   date,
-  time, //added this
+  time,
   icon,
   temperature,
   summary,
