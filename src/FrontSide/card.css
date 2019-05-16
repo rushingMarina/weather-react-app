@@ -5,9 +5,9 @@
   align-items: center;
   color: #f1f1f1;
   background: linear-gradient(to right, rgb(126, 169, 81), rgb(70, 156, 233));
-  border-radius: 8px;
+  border-radius: 0.5em;
   height: 100%;
-  padding: 15px 25px;
+  padding: 0.5em 1.563em;
 }
 
 .card.is-clear-day {
@@ -51,25 +51,25 @@
 }
 
 .card-day {
-  font-size: 32px;
-  margin-bottom: 2px;
+  font-size: 2em;
+  margin-bottom: 0.125em;
   text-align: left;
 }
 
 .card-time {
-  font-size: 32px;
-  margin-bottom: 5px;
+  font-size: 2em;
+  margin-bottom: 0.313em;
   text-align: right;
 }
 
 .card-line {
-  border-bottom: 3.5px solid #fff;
+  border-bottom: 0.219em solid #fff;
   width: 100%;
 }
 
 .card-temperature {
-  font-size: 36px;
-  margin-top: 25px;
+  font-size: 2.25em;
+  margin-top: 0.8em;
   text-align: left;
 }
 
@@ -88,12 +88,12 @@
   width: 100%;
 }
 .card-temperature .small {
-  font-size: 22px;
+  font-size: 0.6em;
 }
 
 .card-city {
-  font-size: 36px;
-  margin-top: 8px;
+  font-size: 2.25em;
+  margin-top: 0.1em;
   text-align: left;
 }
 
@@ -104,16 +104,16 @@
 }
 
 .card-weather {
-  font-size: 36px;
+  font-size: 1.375em;
 }
 
 .card-back {
   background: #fff;
-  border-radius: 8px;
+  border-radius: 0.5em;
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: space-between;
-  padding: 20px;
+  padding: 1.25em;
   width: 100%;
 }

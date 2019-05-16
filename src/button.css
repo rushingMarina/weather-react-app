@@ -1,8 +1,8 @@
 .button {
-  padding: 3px;
+  padding: 0.188em;
   width: 100%;
-  border-radius: 8px;
-  font-size: 24px;
+  border-radius: 0.5em;
+  font-size: 1.5em;
   border: none;
   cursor: pointer;
   color: #fff;
