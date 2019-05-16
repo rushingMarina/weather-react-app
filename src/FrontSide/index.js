@@ -13,8 +13,15 @@ class FrontSide extends Component {
     });
   };
 
+  updateTime = () => {
+    this.setState({time :moment()})
+  }
+
   componentDidMount() {
-    this.updateWeather();
+    this.updateWeather(); 
+    this.interval = setInterval(() => {
+        this.updateTime();
+    }, 1000);
   }
 
   static getDerivedStateFromProps(nextProps, prevState) {
@@ -49,6 +56,7 @@ class FrontSide extends Component {
     return (
       <FrontSideView
         date={moment()}
+        time
         icon={icon}
         temperature={temperature}
         apparentTemperature={apparentTemperature}

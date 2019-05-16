@@ -4,7 +4,7 @@ import BackSide from "./BackSide";
 import moment from "moment";
 import "./panel.css";
 import cities from "./cities.json"
-// import "./index.css";
+
 
 class App extends Component {
 

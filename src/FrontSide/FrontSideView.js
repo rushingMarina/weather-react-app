@@ -5,6 +5,7 @@ import WeatherIcon from "./WeatherIcon";
 
 export default ({
   date,
+  time, //added this
   icon,
   temperature,
   summary,
@@ -17,6 +18,9 @@ export default ({
       <div className="card-row">
         <div className="card-day">{date.format("dddd")}</div>
         <div className="card-day">{date.format("MMM Do")}</div>
+      </div>
+      <div className="card-row-time">
+      <div className="card-time">{date.format("h:mm a")}</div>
       </div>
       <WeatherIcon icon={icon}/>
       <div className="card-row">
