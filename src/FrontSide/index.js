@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import FrontSideView from "./FrontSideView";
 import moment from "moment";
-import queryString from 'query-string';
 import { getWeatherForLocation } from "../api";
 
 class FrontSide extends Component {

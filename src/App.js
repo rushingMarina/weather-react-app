@@ -5,9 +5,25 @@ import "./panel.css";
 import cities from "./cities.json"
 
 
+
+const queryString = require('query-string');
+console.log(window.location.search);
+const parsed = queryString.parse(window.location.search);
+
+
+const customCity = {
+  title: parsed.title,
+  location_type: "City",
+  woeid: parsed.woeid,
+  latt_long: parsed.latt_long
+}
+
+if (parsed.latt_long!=null) {
+  cities[0]=customCity;
+}
+
+
 class App extends Component {
-
-
 
 state = {flipped: false, currentCity: cities[0]};
 

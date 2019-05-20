@@ -1,5 +1,16 @@
 [
   {
+  "title":"New York",
+  "location_type":"City",
+  "woeid":2459115,
+  "latt_long":"40.730610,-73.935242"
+  },
+  {"title":"St Petersburg",
+   "location_type":"City",
+   "woeid":2123260,
+   "latt_long":"59.932739,30.306721"
+  },
+  {
     "title":"Los Angeles",
    "location_type":"City",
    "woeid":2442047,
@@ -12,22 +23,9 @@
   "latt_long":"32.715736,-117.161087"
   },
   {
-  "title":"New York",
-  "location_type":"City",
-  "woeid":2459115,
-  "latt_long":"40.730610,-73.935242"
-  },
-  {
   "title":"Chicago",
   "location_type":"City",
   "woeid":2459115,
   "latt_long":"41.881832,-87.623177"
-  },
-
-  {"title":"St Petersburg",
-   "location_type":"City",
-   "woeid":2123260,
-   "latt_long":"59.932739,30.306721"
   }
-
 ]
