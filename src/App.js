@@ -7,7 +7,6 @@ import cities from "./cities.json"
 
 
 const queryString = require('query-string');
-console.log(window.location.search);
 const parsed = queryString.parse(window.location.search);
 
 
